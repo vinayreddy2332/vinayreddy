@@ -1,0 +1,13 @@
+.main1{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: powderblue;
+    font-style: italic;
+}
+.link2{
+    text-align: right;
+    border-style: groove;
+}
+#text1{
+    text-decoration: underline;
+}
