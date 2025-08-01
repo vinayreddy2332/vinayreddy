@@ -1,0 +1,19 @@
+header{
+  height: 50px;
+  line-height: 50px;
+  background: linear-gradient(to right, red, orange);
+  color: white;
+}
+footer{
+  height: 30px;
+  line-height: 30px;
+  background: linear-gradient(to right, orange, red);
+  font-size: 8pt;
+  color: white;
+}
+section{
+  height: calc(100% - 80px);
+  overflow: auto;
+}
+
+

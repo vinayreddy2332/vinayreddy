@@ -11,7 +11,7 @@
 .body{
     background-color: darkgrey;
     width: 100%;
-    height: calc(100%-60px);
+    height: calc(100% - 60px);
 }
 .fotter{
     background-color: gold;

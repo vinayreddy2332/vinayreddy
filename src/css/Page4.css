@@ -6,7 +6,7 @@ line-height: 50px;
 }
 
 section{
-    height: calc(100%-70px);
+    height: calc(100% - 70px);
 }
 
 footer{
