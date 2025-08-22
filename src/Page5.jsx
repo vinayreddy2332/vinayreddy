@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import'./css/Page5.css'
-export default class
- extends Component {
-  constructor() {
+import './css/Page5.css'
+export default class Page5 extends Component {
+    constructor() {
     super();
-    this.state = {index: 0, slideCount: 3};
+    this.state = {index: 0, slideCount: 7};
     this.autoSlide = this.autoSlide.bind(this);
   }
   componentDidMount() {
@@ -18,23 +17,23 @@ export default class
   render() {
     const{index}=this.state;
     return (
-      <div>
+      <>
         <header>
-            <div className='logo'>Sliding Page-Slide{index}</div>
-            <section>
-                <div className='slider'>
-                <div className='slides'id="slideRef">
-                <div className='slide s1'></div>
-                <div className='slide s2'></div>
-                <div className='slide s3'></div>
-                </div>
-                </div>
-                <footer>
-                    Copyright @ 2025.All rights reserved
-                </footer>
-            </section>
+             <div className='logo'>Sliding Page - Slide {index}</div>
         </header>
-      </div>
+        <section>
+             <div className='slider'>
+                <div className='slides ' id='slideRef'>
+                    <div className='slide s1'></div>
+                    <div className='slide s2'></div>
+                    <div className='slide s3'></div>
+                </div>
+             </div>
+        </section>
+        <footer>
+            Copyright @ 2025. All rights reserved.
+        </footer>
+      </>
     )
   }
 }
